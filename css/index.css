@@ -146,9 +146,9 @@ img {
         left: 0;
         right:0;
         color:#ffffff;
-        background-color: #736e62;
-        padding-top: 30px;
-        padding-bottom: 50px;
+        background-color: rgba(128, 128, 128, 0.8); /* 透明っぽい灰色に設定 */
+        padding-top: 20px;
+        padding-bottom: 30px;
         display: none;
 
     }

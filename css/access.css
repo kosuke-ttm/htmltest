@@ -12,3 +12,33 @@
     height: 600px;
     margin-top: 25px;
 }
+
+
+@media (max-width: 800px) {
+    .map {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .map iframe {
+        height: 300px;
+    }
+
+
+    .header-site-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        color: #ffffff;
+        background-color: rgba(128, 128, 128, 0.8); /* 透明っぽい灰色に設定 */
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: none;
+
+    }
+
+    .header-site-menu.is-show {
+        display: block;
+    }
+}
